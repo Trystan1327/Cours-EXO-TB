@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+   
+    <meta charset="UTF-8">
+        
+        
+       
+        </head>
+        <body>
+            <h1>Vos Coordonnées : </h1>
+
+                <h2>* Ces zones sont obligatoires pour envoyer le formulaire. </h2>
+           
+                <form id="form1" action="http://bienvu.net/script.php" name="form1" method="POST" onSubmit="return checkForm(this);">
+                    <label for="choose" >Société :</label> 
+                    <input  type="text" name="choose" id="choose" > *
+                    <br>   
+                    <label for="contact1" >Personne à contacter :</label>               
+                    <input  type="text" name="contact1" id="contact1"  >  *
+                    <br>
+                    <label for="area" >Adresse de l'entreprise : </label>         
+                    <textarea cols="30" rows="5" id="area" name="area"></textarea> 
+                    <br>    
+                    <label for="postal" >Code Postal : </label>                      
+                    <input  type="text" name="postal" id="postal"  > *
+                    <br>     
+                    <label  for="lieu">Ville :</label>                             
+                    <input  type="text" name="lieu" id="lieu"   >*
+                    <br>       
+                    <label for="mail" >E-mail :</label>                            
+                    <input id="mail" type="text" name="mail"   >*
+                    <br>        
+                    <label for="phone">Téléphone :</label>                         
+                    <input id="phone" type="text" name="phone"   > 
+                    <br>        
+                    <label for="area2">Sélectionnez l'environnement technique du projet :</label>           
+                    <textarea cols="30" rows="5" id="area2"  name="area2" ></textarea>
+                    <br>                
+                    <div class="form-group">
+                        <select name="Choisissez" id="Choisissez"> 
+                                <option value="Choisissez" selected>Choisissez</option>
+                                <option value="Access">Access</option>
+                                <option value="Java">Java</option>
+                                <option value="Windev">Windev</option>
+                                <option value="Visual Basic">Visual Basic</option>
+                                <option value="Power Builder">Power Builder</option>
+                                <option value="Internet">Internet</option>
+                                <option value="Intranet">Intranet</option>
+                                <option value="Windows NT">Windows NT</option>
+                                <option value="Unix">Unix</option>
+                                <option value="SQL Server">SQL Server</option>
+                                <option value="Oracle">Oracle</option>
+                                <option value="Autres">Autres</option>
+                            </select>
+                    </div>    
+                    <br>                       
+                        <!--Button -->
+                        <button  type="submit">Envoyer</button>
+                        <button  type="reset">Effacer</button>
+                     
+                    </form>
+
+
+        <script src="formulaire.js"></script>
+    </body>
+</html>

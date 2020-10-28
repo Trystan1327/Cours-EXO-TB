@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+     <title>Document</title>
+</head>
+<body>
+<form action="http://bienvu.net/script.php" method="post">
+    <div class="container-fluid">
+        <div class="row d-none d-lg-flex ">
+            <div class=" col-lg-2  ">
+                <img src="jarditou_logo.jpg" class="img-fluid" alt="image du logo" title="logo" >
+            </div>
+                    <div class="col-10 col-lg-10 col-md-9 col-sm-9 pr-5 text-right">
+                        <h1>Tout le jardin</h1>
+                    </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="index.php">Jarditou.com</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="BTindex.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="BTtableau.html">Tableau</a>
+                        </li>
+                        <a class="nav-link" href="BTcontact.html">Contact</a>
+                    </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Votre promotion">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                </div>
+            </div>
+        </nav>
+        <img src="promotion.jpg"  class="img-fluid w-100"  alt="Promotion" title="Promotion">
+            <br>
+            *Ces zones sont obligatoires
+            <br>
+            <br>
+            <p class="h2">Vos Coordonées</p>
+
+            <div class="form-group">
+                <label for="name">Nom* </label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Veuillez saisir votre nom" required>     
+            </div>
+                <div class="form-group">
+                   <label for="firstname">Prénom*</label>
+                   <input type="text" class="form-control" id="firstname" placeholder="Veuillez saisir votre prénom" required>
+                </div>
+                    <p>Sexe*</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Féminin</label>
+                        </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                 <label class="form-check-label" for="inlineRadio2">Masculin</label>
+                            </div>
+                            <br>
+                  <div class="form-group">
+                    <label for="datebirth">Date de naissance*</label>
+                    <input type="date" class="form-control" id="datebirth" aria-describedby="datebirth" required>
+                 </div>
+                    <div class="form-group">
+                        <label for="name">Code postale*</label>
+                         <input type="name" class="form-control" id="name" required>
+                    </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Adresse</label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                            <div class="form-group">
+                                <label for="name1">Ville</label>
+                                <input type="name" class="form-control" id="name1">
+                            </div>
+                                <div class="form-group">
+                                     <label for="exampleFormControlInput1">Email*</label>
+                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@hotmail.com" required>
+                                </div>
+                  <p class="h2">Votre demande</p>
+                    <div class="form-group">
+                        <label for="disabledSelect">Sujet</label>
+                        <select id="disabledSelect" class="form-control">
+                        <option>Veuillez sélectionner un sujet</option>
+                        <option>Mes commandes</option>
+                        <option>Questions sur un produit</option>
+                        <option>Réclamation</option>
+                        <option>Autres</option>
+                         </select>
+                    </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Votre question* :</label>
+                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">J'accepte le traitement informatique de ce formulaire</label>
+                </div>
+                  <br>
+                  <br>
+                  
+                <input class="btn btn-outline-primary bg-dark" type="submit" value="Envoyer">
+                <input class="btn btn-outline-primary bg-dark" type="reset" value="Annuler">
+            </div>
+        </form>  
+</body>
+</html>

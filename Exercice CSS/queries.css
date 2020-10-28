@@ -1,0 +1,11 @@
+@media screen and (max-width:768px)
+ {
+
+aside{display:none}
+li a {display: block;}
+section{width: 630px;}
+.resp{width: 630px;}
+nav{width:620px}
+}
+
+/*...Responsive...*/

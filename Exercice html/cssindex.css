@@ -1,0 +1,55 @@
+
+.test{ 
+    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;  
+    font-size: 20pt;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+nav a{
+color: #ffffff;
+
+
+}
+
+nav li {
+    display:inline;
+    
+}
+
+nav {
+    background-color : #000000;
+    padding: 3px;
+     
+}
+
+aside {
+    border: 5px gray;
+    position: static;
+ right: 100px;
+}
+
+.box {
+ display: inline-block;
+ background: rgb(113,113,133);
+ width: 400px;
+ height: 700px;
+}
+aside {
+    background: gray;
+    width: 400px ;
+
+   
+  }
+
+  .colonne{
+      display: flex;
+      margin: 20px 0 20px 0;
+    }

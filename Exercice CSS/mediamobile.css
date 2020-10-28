@@ -1,0 +1,8 @@
+@media screen and (max-width: 380px)
+{
+
+    .resp{width: 540px;}
+    section{font-size: 2em;}
+    nav {width:535px}
+}
+/*...Responsive...*/
